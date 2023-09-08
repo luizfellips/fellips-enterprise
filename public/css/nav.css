@@ -1,0 +1,37 @@
+
+/* Search form */
+.search-input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px black solid;
+    transition: 0.3s;
+}
+
+.search-input:focus {
+    outline: 0;
+    transform: scale(1.1);
+    margin-right: 20px;
+}
+
+.search-button {
+    background-color: transparent;
+    border: 0;
+    transition: 0.3s;
+}
+.search-button:hover {
+    transform: scale(1.2);
+}
+
+/* navbar items */
+
+.nav-link {
+    transition: 0.3s;
+}
+.nav-link:hover {
+    transform: scale(1.2);
+}
+
+.dropdown-menu[data-bs-popper] {
+    right: 0;
+    left: auto;
+}

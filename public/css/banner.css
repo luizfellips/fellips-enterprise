@@ -1,0 +1,25 @@
+@font-face {
+    font-family: PoiretOne;
+    src: url('../fonts/PoiretOne-Regular.ttf');
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: SSP_Extralight;
+    src: url('../fonts/ssp_extralight.otf');
+}
+
+section.banner {
+    background-image: url("../images/banner.jpeg");
+    height: 15em;
+    border-radius: 10px;
+    user-select: none;
+}
+
+.banner-text {
+    font-family: SSP_Extralight;
+}
+
+.banner-subtext {
+    font-family: SSP_Extralight;
+}

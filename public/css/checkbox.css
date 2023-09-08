@@ -1,0 +1,12 @@
+#heart {
+    display: block;
+}
+
+#heart:checked i.bi.bi-heart::before {
+    content: "\F415";
+}
+
+
+label {
+    font-size: 2em;
+}
